@@ -3,8 +3,8 @@ from conan.tools.cmake import CMake, CMakeToolchain, CMakeDeps, cmake_layout
 from conan.tools.scm import Git
 import os
 
-class CFwdIterFile(ConanFile):
-    name = "c_fwd_iter"
+class FwdIterFile(ConanFile):
+    name = "fwd_iter"
     version = "0.1.0"
     author = "Patman1O1"
     description = "A C implementation of a forward direction iterator"
