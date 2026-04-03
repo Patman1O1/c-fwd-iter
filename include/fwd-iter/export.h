@@ -5,11 +5,11 @@
 extern "C" {
 #endif // #ifdef __cplusplus
 
-#ifndef C_FWD_ITER_STATIC_DEFINE
-#  include <c_fwd_iter/export_shared.h>
+#ifndef FWD_ITER_STATIC_DEFINE
+#  include <fwd-iter/export_shared.h>
 #else
-#  include <c_fwd_iter/export_static.h>
-#endif // #ifndef C_FWD_ITER_STATIC_DEFINE
+#  include <fwd-iter/export_static.h>
+#endif // #ifndef FWD_ITER_STATIC_DEFINE
 
 #ifdef __cplusplus
 }
